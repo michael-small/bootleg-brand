@@ -11,9 +11,10 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule, MatCardModule } from "@angular/material";
 import { HomeComponent } from "./components/home/home.component";
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
-  declarations: [AppComponent, AboutUsComponent, HomeComponent],
+  declarations: [AppComponent, AboutUsComponent, HomeComponent, NavComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
